@@ -87,14 +87,19 @@ namespace KebabSimulation
 
             for (int currentHour = 10; currentHour < 21; currentHour++)
             {
+                var random = new Random();
                 //how many customers come for an hour
                 var customersCount = Convert.ToInt32(((TextBox)this.FindName($"CustomersCountAt{currentHour}")).Text);
+                var minCustomerCount = customersCount / 2;
+                var maxCustomerCount = customersCount * 2;
+
+                var customersCountRandom = random.Next(minCustomerCount, maxCustomerCount);
 
                 //var customersCount = ConvertToDoubleArray(((TextBox)this.FindName($"CustomersCountAt{currentHour}")).Text);
 
-                var customerDistribution = RandomCustomerDistribution(customersCount);
+                var customerDistribution = RandomCustomerDistribution(customersCountRandom);
 
-                for (int currentCustomerId = 0; currentCustomerId < customersCount; currentCustomerId++)
+                for (int currentCustomerId = 0; currentCustomerId < customersCountRandom; currentCustomerId++)
                 {
                     var currentTime = DateTime.Today.Add(new TimeSpan(currentHour, customerDistribution[currentCustomerId], 0));
                     var selectedMeat = CustomerChoose(customerMeatChoises);

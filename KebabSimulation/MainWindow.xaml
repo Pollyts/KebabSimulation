@@ -68,9 +68,9 @@
         <TextBox x:Name="MakeMeatAt15" HorizontalAlignment="Left" Margin="306,162,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MakeMeatAt16" HorizontalAlignment="Left" Margin="306,192,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MakeMeatAt17" HorizontalAlignment="Left" Margin="306,222,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeMeatAt18" HorizontalAlignment="Left" Margin="306,252,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeMeatAt19" HorizontalAlignment="Left" Margin="306,282,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeMeatAt20" HorizontalAlignment="Left" Margin="306,312,0,0" TextWrapping="Wrap" Text="5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeMeatAt18" HorizontalAlignment="Left" Margin="306,252,0,0" TextWrapping="Wrap" Text="2/2" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeMeatAt19" HorizontalAlignment="Left" Margin="306,282,0,0" TextWrapping="Wrap" Text="0/0" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeMeatAt20" HorizontalAlignment="Left" Margin="306,312,0,0" TextWrapping="Wrap" Text="0/0" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <Label Content="The probability that a customer will leave due to lack of food" HorizontalAlignment="Left" Margin="43,355,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <TextBox x:Name="CustomerLeavePercent" HorizontalAlignment="Left" Margin="392,355,0,0" TextWrapping="Wrap" Text="0.5" VerticalAlignment="Top" Width="90" Height="26" Grid.Row="1"/>
         <Label Content="The probability which meat a customer choose (sep. by /)" HorizontalAlignment="Left" Margin="43,386,0,0" Grid.Row="1" VerticalAlignment="Top"/>
@@ -89,9 +89,9 @@
         <TextBox x:Name="MakeSideDishAt15"  HorizontalAlignment="Left" Margin="442,162,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MakeSideDishAt16"  HorizontalAlignment="Left" Margin="442,192,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MakeSideDishAt17"  HorizontalAlignment="Left" Margin="442,222,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeSideDishAt18"  HorizontalAlignment="Left" Margin="442,252,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeSideDishAt19"  HorizontalAlignment="Left" Margin="442,282,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
-        <TextBox x:Name="MakeSideDishAt20"  HorizontalAlignment="Left" Margin="442,312,0,0" TextWrapping="Wrap" Text="5/5/5" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeSideDishAt18"  HorizontalAlignment="Left" Margin="442,252,0,0" TextWrapping="Wrap" Text="2/2/2" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeSideDishAt19"  HorizontalAlignment="Left" Margin="442,282,0,0" TextWrapping="Wrap" Text="0/0/0" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
+        <TextBox x:Name="MakeSideDishAt20"  HorizontalAlignment="Left" Margin="442,312,0,0" TextWrapping="Wrap" Text="0/0/0" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MeatLeftAt10"  HorizontalAlignment="Left" Margin="582,12,0,0" TextWrapping="Wrap" Text="1/1" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MeatLeftAt11" HorizontalAlignment="Left" Margin="582,42,0,0" TextWrapping="Wrap" Text="1/1" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
         <TextBox x:Name="MeatLeftAt12" HorizontalAlignment="Left" Margin="582,72,0,0" TextWrapping="Wrap" Text="1/1" VerticalAlignment="Top" Width="100" Height="26" Grid.Row="1"/>
